@@ -1,123 +1,83 @@
-🏅 OlympINDIA28
-Data-Driven Olympic Intelligence & Medal Prediction System
-📌 Overview
+# 🏅 OlympINDIA28
 
-OlympINDIA28 is a data science and machine learning project aimed at analyzing global Olympic trends and predicting India’s future medal performance.
+Data-driven Olympic intelligence system to analyze, model, and predict India's medal performance at the 2028 Los Angeles Olympics.
 
-This project combines:
+---
 
-Historical Olympic data (1896–2024)
+## 📌 Overview
 
-Socio-economic indicators
+OlympINDIA28 combines historical Olympic data (1896–2024), socio-economic indicators, and sports participation trends to build a multi-layer analytics and prediction pipeline focused on India's Olympic growth.
 
-Sports participation trends
-to build a multi-layer intelligence system for Olympic performance analysis.
+> ⚠️ **This project is actively being developed. A research paper and interactive dashboard are in progress.**
 
-🎯 Objective
+---
 
-Analyze global Olympic medal patterns
+## 🎯 Objectives
 
-Build predictive models for medal forecasting
+- Analyze global Olympic medal patterns across 128 years
+- Build predictive models for India's 2028 medal forecast
+- Identify India's strongest sports and untapped opportunities
+- Compare India's trajectory against top Olympic nations
 
-Understand India’s strengths & gaps in Olympic sports
+---
 
-Create a data-backed roadmap for Olympic success
+## 🧠 Project Architecture
 
-🧠 Project Architecture
+| Layer | Focus | Status |
+|-------|-------|--------|
+| Layer 1 | Data Engineering & Master Dataset | ✅ Complete |
+| Layer 2 | Sports Intelligence & Event Analysis | ✅ Complete |
+| Layer 3 | Medal Prediction Modeling | ✅ Complete |
+| Layer 4 | India Deep Analysis | ✅ Complete |
+| Layer 5 | Global Comparative Intelligence | ⏳ In Progress |
 
-The project is divided into multiple layers:
+---
 
-🔹 Layer 1: Data Engineering
+## 📊 Data Sources
 
-Data collection & merging
+- Olympic historical datasets (1896–2024)
+- Country-level medal tallies
+- Socio-economic indicators
+- Sports participation trends
+- Country codes & mappings
 
-Cleaning and validation
+---
 
-Creation of master datasets
+## 🛠 Tech Stack
 
-🔹 Layer 2: Sports Intelligence
+| Tool | Usage |
+|------|-------|
+| Python | Core logic |
+| Pandas, NumPy | Data processing |
+| Scikit-learn | Predictive modeling |
+| Matplotlib, Seaborn | Visualizations |
+| Jupyter Notebook | Analysis environment |
+| Streamlit | Dashboard (coming soon) |
 
-Sport-wise medal analysis
+---
 
-Country dominance patterns
+## 🚀 Current Status
 
-Event-level insights
+- ✅ Data collection & preprocessing complete
+- ✅ Sports intelligence analysis complete
+- ✅ Medal prediction modeling complete
+- ✅ India deep analysis complete
+- ⏳ Global comparative analysis in progress
+- 🔜 Interactive Streamlit dashboard
+- 🔜 Research paper submission
 
-🔹 Layer 3: Medal Modeling
+---
 
-Weighted medal models
+## 🔮 Upcoming
 
-Country performance scoring
+- [ ] Layer 5: India vs top Olympic nations
+- [ ] Streamlit dashboard deployment
+- [ ] Research paper publication
 
-Historical trend modeling
+---
 
-🔹 Layer 4: India Deep Analysis
+## 👨‍💻 Author
 
-India-specific performance breakdown
-
-Strength/weakness identification
-
-Event-level opportunity mapping
-
-🔹 Layer 5: Global Comparative Intelligence (WIP)
-
-Compare India vs top Olympic nations
-
-Identify performance gaps
-
-Strategic insights for improvement
-
-
-📊 Data Sources
-
-Olympic historical datasets (1896–2024)
-
-Country-level medal tallies
-
-Socio-economic indicators
-
-Country codes & mappings
-
-⚙️ Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Scikit-learn
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-🚀 Current Status
-
-✅ Data collection & preprocessing complete
-✅ Sports intelligence analysis complete
-✅ Medal prediction modeling complete
-⏳ Global comparative intelligence in progress
-
-📈 Key Highlights
-
-Built structured Olympic master dataset
-
-Developed weighted medal scoring system
-
-Created India-focused performance insights
-
-Designed multi-layer analytics pipeline
-
-🔮 Future Work
-
-Finalize global comparison model
-
-Build interactive dashboard (Streamlit)
-
-Add Olympic 2028 predictions
-
-Deploy as a web application
-
-👨‍💻 Author
-
-Kashyap Ladva
-Computer Engineering Student (Data Science & AI Enthusiast)
+**Kashyap Ladva**
+CE Student @ GEC Gandhinagar | Data Science & ML
+[GitHub](https://github.com/Kashyap-Ladva)
