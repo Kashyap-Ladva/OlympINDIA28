@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "colsample_bytree": 0.7,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "n_estimators": 200,
+    "subsample": 0.7
+  },
+  "r2": 0.9133,
+  "mae": 2.3828,
+  "india_2028_base_prediction": 2.86,
+  "career_2028": 1.2414,
+  "delta_2028": -1.0,
+  "gdp_2028_log": 8.1488
+}
