@@ -186,6 +186,34 @@ The project uses a **sequential 10-stage notebook pipeline** to transform raw da
 
 ---
 
+## 🌐 Web Application (Streamlit Dashboard)
+
+**OlympINDIA28** includes an interactive Streamlit web application for exploring predictions and insights:
+
+### Features
+- 📊 **Interactive visualizations** - Plotly charts for exploration and drill-down
+- 🎯 **2028 Predictions** - Country-level medal forecasts with confidence intervals
+- 🏅 **Sport-wise Analysis** - Medal breakdown by sport with ROI metrics
+- 🌍 **Global Comparisons** - India's positioning vs. top performers per sport
+- 📈 **Scenario Simulations** - Explore baseline, conditional, and breakout scenarios
+- 💡 **Opportunity Detection** - Identify high-ROI sports for strategic investment
+- 🔍 **Country Explorer** - Compare India against other countries interactively
+- 📋 **Performance Analytics** - Historical trends, momentum analysis, statistical insights
+
+### Technology
+- **Framework:** Streamlit
+- **Visualizations:** Plotly Express & Plotly Graph Objects
+- **Styling:** Custom CSS with Indian national colors (saffron, green, blue)
+- **Layout:** Responsive wide layout optimized for dashboards
+
+### Launch the App
+```bash
+streamlit run app.py
+```
+Opens at http://localhost:8501
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -348,7 +376,7 @@ Executes all 10 notebooks in order. Outputs are saved to `data/processed/` and `
 - [x] Country-level XGBoost model
 - [x] Sport-level prediction model
 - [x] Global comparative intelligence
-- [ ] Streamlit dashboard (in progress)
+- [x] Streamlit dashboard 
 - [ ] Deployment on Streamlit Cloud
 - [ ] Research paper (planned)
 
