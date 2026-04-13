@@ -85,7 +85,7 @@ section[data-testid="stSidebarContent"] { padding: 1.5rem 1rem; }
 .top-navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center space-between !important;
     align-items: center;
     gap: 16px;
     padding: 16px 0 12px;
@@ -124,46 +124,30 @@ section[data-testid="stSidebarContent"] { padding: 1.5rem 1rem; }
 }
 
 /* ── Navigation radio pills ── */
-div[data-testid="stHorizontalBlock"]:has(div[role="radiogroup"]),
 div[data-testid="stRadio"] {
-    background: transparent;
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    margin: 8px auto 24px;
     display: flex !important;
     justify-content: center !important;
-    width: 100%;
+    width: 100% !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 8px auto 24px !important;
 }
 
 div[data-testid="stRadio"] > div {
-    width: 100% !important;
     display: flex !important;
     justify-content: center !important;
+    width: 100% !important;
 }
 
 div[role="radiogroup"] {
     display: flex !important;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
     justify-content: center !important;
-    align-items: center;
-    width: fit-content !important;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-div[role="radiogroup"] > label {
-    display: flex !important;
-    justify-content: center;
-    flex: 0 0 auto !important;
-    width: auto !important;
-    min-width: max-content !important;
-}
-
-div[role="radiogroup"] > label > div {
-    width: auto !important;
-    justify-content: center;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
 }
 
 div[role="radiogroup"] > label {
@@ -173,8 +157,11 @@ div[role="radiogroup"] > label {
     padding: 10px 22px !important;
     background: transparent !important;
     transition: all 0.2s ease !important;
-    min-width: 0 !important;
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
     margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 div[role="radiogroup"] > label:hover {
@@ -182,7 +169,7 @@ div[role="radiogroup"] > label:hover {
 }
 
 /* hide the radio circle completely */
-div[role="radiogroup"] > label[data-baseweb="radio"] > div:first-child {
+div[role="radiogroup"] > label > div:first-child {
     display: none !important;
     width: 0 !important;
     margin: 0 !important;
@@ -193,6 +180,7 @@ div[role="radiogroup"] > label > div {
     gap: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    justify-content: center !important;
 }
 
 div[role="radiogroup"] > label > div > div p {
@@ -201,15 +189,15 @@ div[role="radiogroup"] > label > div > div p {
     letter-spacing: 0.5px !important;
     color: var(--text) !important;
     margin: 0 !important;
-    white-space: nowrap;
+    white-space: nowrap !important;
 }
 
-div[role="radiogroup"] > label[data-baseweb="radio"]:has(input:checked) {
+div[role="radiogroup"] > label:has(input:checked) {
     background: var(--saffron) !important;
     box-shadow: 0 4px 16px rgba(255,153,51,0.30) !important;
 }
 
-div[role="radiogroup"] > label[data-baseweb="radio"]:has(input:checked) p {
+div[role="radiogroup"] > label:has(input:checked) p {
     color: #080810 !important;
     font-weight: 700 !important;
 }
