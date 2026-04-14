@@ -1,8 +1,12 @@
 # 🇮🇳 OlympINDIA28 — India Olympic Medal Prediction System
 
+🌐 **Live App:** [olympindia28.streamlit.app](https://olympindia28.streamlit.app/)
+
 > **How many medals can India win at the 2028 Los Angeles Olympics?**
-> 
+>
 > This project answers that question using machine learning, historical Olympic data (1896–2024), and multi-layer predictive intelligence to forecast India's performance at LA 2028.
+
+![OlympINDIA28 Dashboard](docs/screenshot.png)
 
 ---
 
@@ -109,7 +113,6 @@ OlympINDIA28/
 ├── 📚 src/                                      # Source code modules
 ├── 📖 docs/                                     # Documentation files
 ├── app.py                                       # Streamlit web application
-├── run_pipeline.py                              # Full pipeline orchestrator
 ├── requirements.txt                             # Python dependencies
 └── README.md
 ```
@@ -234,18 +237,12 @@ pip install -r requirements.txt
 
 ### Running the Pipeline
 
-**Option 1: Run complete pipeline**
-```bash
-python run_pipeline.py
-```
-Executes all 10 notebooks in sequence, regenerating all datasets and models.
-
-**Option 2: Run individual notebooks**
+**Option 1: Run individual notebooks**
 ```bash
 jupyter notebook notebooks/India_Olympic_Deep_Analysis.ipynb
 ```
 
-**Option 3: Launch web application**
+**Option 2: Launch web application**
 ```bash
 streamlit run app.py
 ```
@@ -276,8 +273,7 @@ Opens interactive dashboard at http://localhost:8501
 ## 📊 Data Sources
 
 - **Olympic History:** Kaggle's Olympic Games dataset (1896–2024)
-- **Economic Data:** World Bank (GDP per capita, socioeconomic indicators)
-- **Population Data:** UN World Population Prospects
+- **Economic & Population Data:** World Bank (GDP per capita, socioeconomic indicators)
 - **Recent Games:** Official IOC records (2020, 2024)
 
 ---
@@ -326,7 +322,7 @@ To contribute:
 
 For questions, suggestions, or collaboration:
 - **GitHub Issues:** [Open an issue](https://github.com/Kashyap-Ladva/OlympINDIA28/issues)
-- **Email:** Your contact information
+- **Email:** kashyapladva@gmail.com
 
 ---
 
@@ -354,7 +350,7 @@ For questions, suggestions, or collaboration:
 - [x] Sport-level prediction model
 - [x] Global comparative intelligence
 - [x] Streamlit dashboard
-- [ ] Deployment on Streamlit Cloud
+- [x] Deployment on Streamlit Cloud → [Live](https://olympindia28.streamlit.app/)
 - [ ] Research paper (planned)
 
 ---
