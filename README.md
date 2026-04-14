@@ -359,7 +359,7 @@ For questions, suggestions, or collaboration:
 
 **Kashyap Ladva**  
 B.E. Computer Engineering | Data Science & Machine Learning  
-[GitHub](https://github.com/Kashyap-Ladva) | [LinkedIn](https://linkedin.com/in/kashyap-ladva) | kashyap@email.com
+[GitHub](https://github.com/Kashyap-Ladva) | [LinkedIn](https://linkedin.com/in/kashyap-ladva) | kashyapladva@email.com
 
 ---
 
