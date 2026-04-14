@@ -267,6 +267,8 @@ Opens interactive dashboard at http://localhost:8501
 | `scipy` | Scientific computing |
 | `streamlit` | Web app framework |
 | `plotly` | Interactive visualizations |
+| `streamlit` | Web app framework |
+| `plotly` | Interactive visualizations |
 | `jupyter` | Notebook environment |
 
 ---
@@ -339,35 +341,10 @@ For questions, suggestions, or collaboration:
 **Last Updated:** April 2026  
 **Status:** Active Development  
 **Next Update:** Quarterly, following major Olympic events
-```
-
-### Requirements
-```
-pandas
-numpy
-scikit-learn
-xgboost
-matplotlib
-seaborn
-statsmodels
-scipy
-jupyter
-nbconvert
-```
 
 ---
 
-##  Run Pipeline
-
-```bash
-python run_pipeline.py
-```
-
-Executes all 10 notebooks in order. Outputs are saved to `data/processed/` and `models/`.
-
----
-
-##  Roadmap
+## 🗺️ Roadmap
 
 - [x] Data collection (1896–2024)
 - [x] Data cleaning + feature engineering
@@ -376,19 +353,18 @@ Executes all 10 notebooks in order. Outputs are saved to `data/processed/` and `
 - [x] Country-level XGBoost model
 - [x] Sport-level prediction model
 - [x] Global comparative intelligence
-- [x] Streamlit dashboard 
+- [x] Streamlit dashboard
 - [ ] Deployment on Streamlit Cloud
 - [ ] Research paper (planned)
 
 ---
 
-##  Author
+## 👤 Author
 
-**Kashyap Ladva**
-B.E. Computer Engineering 
-Data Science and Machine Learning
-[GitHub](https://github.com/Kashyap-Ladva) | [LinkedIn](https://linkedin.com/in/kashyap-ladva)
+**Kashyap Ladva**  
+B.E. Computer Engineering | Data Science & Machine Learning  
+[GitHub](https://github.com/Kashyap-Ladva) | [LinkedIn](https://linkedin.com/in/kashyap-ladva) | kashyap@email.com
 
 ---
 
-> ⚠️ *This README is temporary. It will be updated after the Streamlit dashboard is deployed with live app link, screenshots, and demo GIF.*
+> 📸 *Screenshots and live demo link coming soon — deployment in progress.*
