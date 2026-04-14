@@ -9,9 +9,6 @@ __pycache__/
 venv/
 env/
 
-# Ignore processed/generated data
-data/processed/
-data/processed/*.csv
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
