@@ -8,3 +8,5 @@ statsmodels
 scipy
 jupyter
 nbconvert
+streamlit
+plotly
